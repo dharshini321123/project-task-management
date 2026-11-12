@@ -4,7 +4,7 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/tasks";
+const API_URL = "https://project-task-management-6cug.onrender.com";
 
 function App() {
   const [tasks, setTasks] = useState([]);
